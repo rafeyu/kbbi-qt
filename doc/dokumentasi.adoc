@@ -1,17 +1,17 @@
 :hide-uri-scheme:
-== 1. Pengenalan KBBI-Qt
-=== 1.1 Apa itu KBBI-Qt?
-KBBI-Qt adalah aplikasi Kamus Besar Bahasa Indonesia berbasis GUI (_Graphical User Interface_ atau Antarmuka Berbasis Grafik) yang dikembangkan dengan bahas pemrograman C++ dan Framework Qt.
+== 1. Pengenalan KBBI Qt
+=== 1.1 Apa itu KBBI Qt?
+KBBI Qt adalah aplikasi Kamus Besar Bahasa Indonesia berbasis GUI (_Graphical User Interface_ atau Antarmuka Berbasis Grafik) yang dikembangkan dengan bahas pemrograman C++ dan Framework Qt.
 
-Dirilis dengan lisensi GNU GPL v3.0, maka KBBI-Qt adalah https://www.gnu.org/philosophy/free-sw.en.html[_free software_], sehingga aplikasi yang dikembangkan oleh komunitas Belajar GNU/Linux Indonesia (BGLI) ini bebas dijalankan untuk tujuan apapun, digunakan, didistribusikan (baik berbayar atau gratis), disalin, dimodifikasi, dan dikembangkan.
+Dirilis dengan lisensi GNU GPL v3.0, maka KBBI Qt adalah https://www.gnu.org/philosophy/free-sw.en.html[_free software_], sehingga aplikasi yang dikembangkan oleh komunitas Belajar GNU/Linux Indonesia (BGLI) ini bebas dijalankan untuk tujuan apapun, digunakan, didistribusikan (baik berbayar atau gratis), disalin, dimodifikasi, dan dikembangkan.
 
-=== 1.2 Keuntungan menggunakan KBBI-Qt
+=== 1.2 Keuntungan menggunakan KBBI Qt
 Badan Pengembangan dan Pembinaan Bahasa (Badan Bahasa) serta Kementerian Pendidikan dan Kebudayaan (Kemendikbud) sebenarnya telah merilis aplikasi KBBI berbasis web; http://kbbi.web.id (KBBI III), http://kbbi4.portalbahasa.com (KBBI IV), dan http://kbbi.kemdikbud.go.id (KBBI IV). Namun, ketiganya memiliki kekurangan, yakni pengguna harus dalam keadaan daring untuk mengaksesnya.
 
-KBBI-Qt ingin memastikan bahwa pengguna dapat mengakses KBBI dalam keadaan luring melalui komputer atau laptop. Sebagai tambahan, KBBI-Qt juga membawa PUEBI (Pedoman Umum Ejaan Bahasa Indonesia) yang bisa diakses melalui menu Ekstra pada _menu bar_ (lihat poin 4.4).
+KBBI Qt ingin memastikan bahwa pengguna dapat mengakses KBBI dalam keadaan luring melalui komputer atau laptop. Sebagai tambahan, KBBI Qt juga membawa PUEBI (Pedoman Umum Ejaan Bahasa Indonesia) yang bisa diakses melalui menu Ekstra pada _menu bar_ (lihat poin 4.4).
 
-== 2. Pemasangan KBBI-Qt
-Beberapa kontributor telah memaketkan aplikasi KBBI-Qt untuk CentOS/RHEL7, Fedora, Arch Linux, dan Debian beserta turunannya. Berikut cara instal melalui distro tersebut, ditambah cara instal dari _source code_ (_compile_ manual).
+== 2. Pemasangan KBBI Qt
+Beberapa kontributor telah memaketkan aplikasi KBBI Qt untuk CentOS/RHEL7, Fedora, Arch Linux, dan Debian beserta turunannya. Berikut cara instal melalui distro tersebut, ditambah cara instal dari _source code_ (_compile_ manual).
 
 === 2.1 CentOS/RHEL7
 ----
@@ -63,7 +63,7 @@ $ sudo make uninstall
 == 3. Pengenalan Antarmuka
 image::gbr/pengenalan-antarmuka.png[antarmuka kbbi-qt]
 
-== 4. Penggunaan KBBI-Qt
+== 4. Penggunaan KBBI Qt
 === 4.1 Cari arti kata
 Untuk mencari arti kata "kamus", ketikkan kata "kamus" dalam kolom pencarian, lalu tekan Enter pada _keyboard_. Centang opsi "**Aktifkan pencarian otomatis**" untuk mencari arti kata tanpa perlu menekan Enter.
 
@@ -89,7 +89,7 @@ Klik kolom hasil pencarian, tahan tombol _Ctrl_ pada _keyboard_, lalu _scroll_ m
 Klik "Ekstra" pada _menu bar_, lalu pilih PUEBI. PUEBI akan terbuka di peramban favorit Anda secara otomatis.
 
 === 4.5 Keterangan aplikasi, nama-nama pengembang, dan lisensi
-Untuk melihat penjelasan singkat seputar KBBI-Qt, nama-nama pengembang, dan lisensi, klik "Aplikasi" pada _menu bar_, lalu pilih "Tentang".
+Untuk melihat penjelasan singkat seputar KBBI Qt, nama-nama pengembang, dan lisensi, klik "Aplikasi" pada _menu bar_, lalu pilih "Tentang".
 
 *Tampilan dialog Tentang Aplikasi*:
 
